@@ -1,0 +1,75 @@
+#h-face {
+  width: 1200px;
+}
+h2 {
+  color: #0073cf;
+  font-weight: bolder;
+}
+
+.lead {
+  font-size: 1.1rem !important;
+}
+.line {
+  width: 2px !important;
+  background-color: #007bff !important;
+  font-weight: bolder;
+}
+#md-button {
+  font-family: Helvetica;
+  background: #65a0d8;
+  box-shadow: none;
+  border: none;
+  width: 200px;
+  font-size: 17px;
+}
+.crd-sec {
+  width: 90% !important;
+  margin: 3%;
+}
+.c-1 {
+  width: 200px !important;
+  margin-top: 20px !important;
+}
+#btnmsec {
+  background-color: #ffe16d;
+  color: #283c5d;
+  outline: none;
+  border: none;
+  width: 250px;
+}
+#md-h1 {
+  color: #0073cf;
+  font-size: 35px;
+  line-height: 42px;
+  vertical-align: baseline;
+  letter-spacing: -1.225px;
+  word-spacing: 0px;
+  margin: 43.75px 0px 7px;
+  padding: 0px;
+  font-weight: bold;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(0, 115, 207);
+  text-align: center;
+  text-indent: 0px;
+}
+#subhead {
+  color: #283c5d;
+}
+@media only screen and (min-width: 1500px) {
+}
+
+@media only screen and (max-width: 600px) {
+  #md-button {
+    font-family: Helvetica;
+    background: #65a0d8;
+    box-shadow: none;
+    border: none;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 17px;
+  }
+}
